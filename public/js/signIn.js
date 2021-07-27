@@ -16,6 +16,7 @@ function signIn() {
             const user = result.user;
 
             console.log(token, user);
+            window.location = "writeNote.html";
             // ...
         }).catch((error) => {
             // Handle Errors here.
